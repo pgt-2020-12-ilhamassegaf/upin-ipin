@@ -29,7 +29,7 @@
     
           <a href="/dosen" class="btn btn-sm btn-info btn-flat pull-left"><- Kembali</a>
           <br/>
-          <br/>>
+          <br/>
 
           @foreach($dosen as $p) 
     <form action="/dosen/update" method="post">  
