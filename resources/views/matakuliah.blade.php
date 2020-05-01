@@ -40,7 +40,7 @@
     <table border = "1" class="table table-hover">
         <tr>
            
-            <th>NIM</th>
+            
             <th>Kode Matakuliah</th>
             <th>Nama Matakuliah UTS</th>
             <th>Jumlah SKS</th>
@@ -51,7 +51,7 @@
         @foreach($matakuliah as $p)
         <tr>
             
-            <td>{{ $p->nim }}</td>
+            
             <td>{{ $p->kd_mk }}</td>
             <td>{{ $p->nama_mk }}</td>
             <td>{{ $p->sks }}</td>
