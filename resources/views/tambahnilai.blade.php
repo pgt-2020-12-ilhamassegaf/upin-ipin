@@ -37,7 +37,7 @@
     <br/>
     <br/>
 
-    <form action="/dashboard/store" method="post">
+    <form action="/nilai/store" method="post">
         {{ csrf_field() }}
         <table class="table table-hover">
         <tr>
